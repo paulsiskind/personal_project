@@ -1,0 +1,47 @@
+<style>
+
+
+header {
+    background:;
+    display: inline block;
+    color:#795548;
+    text-align:center;
+    
+}
+aside {
+    line-height:30px;
+    background-color:#FF5722;
+    height:1000px;
+    width:10%;
+    float:left;
+    padding:5px; 
+    clear: left;
+}
+img{
+    height: 220px;
+    width: 200px;
+    float: right;
+}
+tr:nth-of-type(odd) {
+      background-color:orange;
+}
+
+tr:nth-of-type(even) {
+      background-color:green;
+      }
+.section {
+    background-color:olive;
+    width:1000px;
+    float:left;
+    padding:10px; 
+
+
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>

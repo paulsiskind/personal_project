@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About: Paul Siskind</title>
+  <link rel="stylesheet" href="assets/stylesheet/main.css">
+  <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/cyborg/bootstrap.min.css">-->
+  <script type="text/javascript" src="script.js"></script>
+      <style>
+      #map-canvas {
+        width: 80%;
+        height: 400px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(39.173041, -106.851504),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>  
+</head>
+<body>
+
+<div class="wrap">
+
+    <header>
+    <h1>About Paul D. Siskind</h1>
+    </header>
+
+      <aside>
+         <h3> <a href="PDS2.html">THE FUTURE</a></h3>
+         <ul>
+             <li>Fun Facts</li>
+             <li>Paul's first website</li>
+             <li>Exotosis</li>
+             <li>English Literatue Major</li>
+             <li>Skidmore College</li>
+             <li><b>Favorite Authors</b></li>
+             <li>David Foster Wallace</li>
+             <li>Fyodor Dostoyevsky</li>
+             <li>Truman Capote</li>
+             <li>Girlfriend Packed my bag</li>
+             <li>Torn most major ligaments on left side of body</li>
+             <li>I'm really bad at asking for help</li>
+          </ul>
+          <h3>Places I've lived</h3>
+          <ul>
+             <li>NYC</li>
+             <li>SF</li>
+             <li>Boston</li>
+             <li>Lake Tahoe</li>
+             <li>Saratoga Springs</li>
+             <li>Moab</li>
+             <li>Boulder</li>
+             <li>Denver</li>
+             <li>Glenwood Springs</li>
+             <li>Williamstown</li>
+          </ul>
+      </aside>
+
+      <div class="section">
+          <h1>THE PRESENT</h1>
+              <h2>Who is Paul Siskind?</h2><br>
+	              <img src="assets/images/PDS1.jpg" alt="Moab">
+                <p>He has a tendency to go kayaking like some people go to work.</P>
+	              <img src="assets/images/PDS3.jpg" alt="OBJ">
+	           
+               <p> So much so that he put his life on hold in various ways to try and realize his potential.  <br>
+	              <img src="assets/images/PDS4.jpg" alt="MFS">
+               </p><br>
+               <p> But, sometimes you got to think about the little people who are depending on you.
+	              <img src="assets/images/PDS2.jpg" alt="Bobo">
+               </p><br/>
+               <p>Making sacrifices and leaving home.</p>
+	              <div id="map-canvas"></div>
+       </div>
+
+       <div class="video">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/YoN4FmulsD0" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
+       <div class="something">
+        <br>
+        <br>
+          
+      
+       </div>
+
+       <footer>
+        <p>paulsiskind@gmail.com</p>
+       </footer>
+
+</div>
+</body>
+</html>
